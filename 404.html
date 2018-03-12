@@ -1,14 +1,16 @@
 <head>
- <!-- <meta http-equiv="refresh" content="0;URL='https://ja.wikipedia.org/wiki/%E3%83%A2%E3%83%8A%E3%82%B3'" /> -->
-</head>
-<body>
 <script>
 
 let help=[window.location,document.referrer,window.navigator]
 let a=JSON.stringify(help,null,2);
-document.body.innerHTML=`<pre>${a}</pre>`
+document.write(`<pre>${a}</pre>`)
+
+//document.body.innerHTML=`<pre>${a}</pre>`
 console.log(help)
 
 </script>
-  
+ 
+ <!-- <meta http-equiv="refresh" content="0;URL='https://ja.wikipedia.org/wiki/%E3%83%A2%E3%83%8A%E3%82%B3'" /> -->
+</head>
+<body>
 </body>  
