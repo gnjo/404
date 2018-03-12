@@ -1,0 +1,10 @@
+<head>
+<script>
+
+let help=[window.location,document.referrer,window.navigator]
+let a=JSON.stringify(help,null,2);
+document.body.innerHTML=`<pre>${a}</pre>`
+console.log(help)
+
+</script>
+</head>
